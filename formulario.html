@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Se agrego una etiqueta link para importar el archivo de estilos CSS -->
+  <link rel="stylesheet" type="text/css" media="screen" href="./styles.css">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <h1>Bienvenidos a mi fiesta</h1>
+  <h2>Por favor, confirmar asistencia:</h2>
+
+  <form class="formulario">
+    <!-- Se agrego la etiqueta label para etiquetar los campos de entrada -->
+    <label for="name">Nombre</label> <input type="text" name="name" id="name">
+    <br />
+    <!-- Corrección: Se añadió la etiqueta label para etiquetar los campos de entrada -->
+    <label for="age">Edad</label> <input type="number" name="age" id="age">
+    <br />
+
+    <!-- Se agrego la etiqueta label para etiquetar el campo de selección -->
+    <label for="nationality">Nacionalidad</label>
+    <select name="nationality" id="nationality">
+      <option value="ar">Argentina</option>
+      <option value="mx">Mexicana</option>
+      <option value="per">Peruana</option>
+      <option value="vnzl">Venezolana</option>
+    </select>
+    <br />
+    <input type="submit">
+  </form>
+
+  <div>
+    <h2>Lista de invitados</h2>
+
+  </div>
+
+  <!-- Se corrigió la ruta de importación del archivo -->
+  <script src="./formulario.js"></script>
+</body>
+
+</html>
